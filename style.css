@@ -94,16 +94,25 @@ section {
   margin: auto;
 }
 
+footer {
+  background: linear-gradient(#696484, #8788ba);
+}
+
 footer,
 nav {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  
 }
 
 nav a {
   margin-left: 30px;
+}
+
+caption {
+  margin-bottom: 1rem;
 }
 
 .accueil-photos {
@@ -259,4 +268,61 @@ input[type=submit] {
   border: none;
   font-size: 1em; /* Augmenter la taille du texte */
   width: 250px;
+}
+
+/* Style de base du formulaire */
+/* CONTACT FORM - Version minimale */
+#contact {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+#contact fieldset {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+#contact legend {
+  padding: 0 0.5rem;
+  font-weight: bold;
+}
+
+#contact label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-size: 0.9rem;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+  width: 100%;
+  padding: 0;
+  margin-bottom: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: 'Manrope', sans-serif;
+}
+
+#contact textarea {
+  min-height: 80px;
+  max-height: 150px;
+  resize: vertical;
+}
+
+#contact input[type="submit"] {
+  background: #2c3e50;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#contact input[type="submit"]:hover {
+  background: #3498db;
 }
