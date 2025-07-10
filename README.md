@@ -4,7 +4,7 @@ Projet réalisé dans le cadre de ma formation OpenClassrooms.
 
 ## 🚀 Aperçu
 
-[Accéder au site en ligne]((https://DavidD69Dev.github.io/Site-Robbie-Lens/](https://site-robbie-lens.netlify.app/))
+[Accéder au site en ligne](https://site-robbie-lens.netlify.app/](https://site-robbie-lens.netlify.app/)
 
 ## 🛠️ Technologies
 
